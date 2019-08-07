@@ -1,5 +1,6 @@
 package com.frienddementor.obsidiantools;
 
+import com.frienddementor.obsidiantools.init.ModRecipes;
 import com.frienddementor.obsidiantools.proxy.CommonProxy;
 import com.frienddementor.obsidiantools.util.R;
 
@@ -29,7 +30,7 @@ public class Main {
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
 	{
-
+		ModRecipes.init();
 	}
 
 	@EventHandler
