@@ -1,5 +1,10 @@
 package com.frienddementor.obsidiantools.proxy;
 
-public class CommonProxy {
+import net.minecraft.item.Item;
 
+public class CommonProxy {
+	public void registerItemRenderer(Item itm, int meta, String id)
+	{
+		
+	}
 }
