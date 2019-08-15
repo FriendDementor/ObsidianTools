@@ -4,10 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.frienddementor.obsidiantools.items.ItemBase;
+import com.frienddementor.obsidiantools.items.tools.ToolSpade;
 import com.frienddementor.obsidiantools.items.tools.ToolSword;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
 import net.minecraftforge.common.util.EnumHelper;
 
@@ -30,4 +32,5 @@ public class ModItems {
 
 	// Tools
 	public static final ItemSword OBSIDIAN_SWORD = new ToolSword("obsidian_sword", MATERIAL_OBSIDIAN);
+	public static final ItemSpade OBSIDIAN_SHOVEL = new ToolSpade("obsidian_shovel", MATERIAL_OBSIDIAN);
 }
