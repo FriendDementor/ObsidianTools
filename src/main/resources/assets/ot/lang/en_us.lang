@@ -1,1 +1,10 @@
+//Items
 item.obsidian_ingot.name=Obsidian Ingot
+
+// Tools
+item.obsidian_sword.name=Obsidian Sword
+item.obsidian_axe.name=Obsidian Axe
+item.obsidian_pickaxe.name=Obsidian Pickaxe
+item.obsidian_hoe.name=Obsidian Hoe
+item.obsidian_shovel.name=Obsidian Shovel
+item.obsidian_nugget.name=Obsidian Nugget
