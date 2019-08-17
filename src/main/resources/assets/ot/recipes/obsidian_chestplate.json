@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "g g",
+        "ggg",
+        "ggg"
+    ],
+    "key": {
+        "g": {
+            "item": "ot:obsidian_ingot"
+        }
+    },
+    "result": {
+        "item": "ot:obsidian_chestplate",
+        "count": 1
+    }
+}

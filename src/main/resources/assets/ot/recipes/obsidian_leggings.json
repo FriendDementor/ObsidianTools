@@ -1,17 +1,17 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "###",
-        "###",
-        "###"
+        "ggg",
+        "g g",
+        "g g"
     ],
     "key": {
-        "#": {
-            "item": "ot:obsidian_nugget"
+        "g": {
+            "item": "ot:obsidian_ingot"
         }
     },
     "result": {
-        "item": "ot:obsidian_ingot",
+        "item": "ot:obsidian_leggings",
         "count": 1
     }
 }
