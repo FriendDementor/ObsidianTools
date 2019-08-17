@@ -32,7 +32,7 @@ public class ModItems {
 	public static final ToolMaterial MATERIAL_OBSIDIAN = EnumHelper.addToolMaterial(
 			"material_obsidian",
 			ToolMaterial.IRON.getHarvestLevel(),
-			ToolMaterial.DIAMOND.getMaxUses(),
+			ToolMaterial.DIAMOND.getMaxUses() * 3,
 			ToolMaterial.IRON.getEfficiency(),
 			ToolMaterial.IRON.getAttackDamage(),
 			ToolMaterial.IRON.getEnchantability()
@@ -40,9 +40,9 @@ public class ModItems {
 	public static final ArmorMaterial ARMOR_OBSIDIAN = EnumHelper.addArmorMaterial(
 			"armor_material_obsidian",
 			R.MOD_ID + ":obsidian",
-			14, 
-			new int[]{2, 7, 5, 3}, 
-			10, 
+			99, // Diamond durability * 3
+			new int[]{2, 5, 6, 2},
+			9,
 			SoundEvents.ITEM_ARMOR_EQUIP_IRON, 
 			0.0F
 	);
